@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>PenPal</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <!-- <img src="logo.png" alt="logo"> -->
+         <!-- Optional to use a logo, but using text loads faster -->
+
+    </head>
+
+    <body>
+        <h1>PenPal</h1>
+        <div class="form-container">
+            <form>
+                <div class="main-form-group">
+                    <label for="username">Pen Pal is a website where people can chat with each other from anywhere in the globe, every 24 hours 
+                        you are matched with a Pen Pal at random, you can decide to add them to your friends list, and private 
+                        message them whenever, or not.</label>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="find-pal-btn" onclick="redirectTo('palchat.html')">Find Pal</button>
+                </div>
+            </form>
+        </div>
+
+        <script>
+            function redirectTo(page) {
+                window.location.href = page;
+            }
+        </script>
+    </body>
+
+    <footer>
+        <p>PenPal CS2550 2024</p>
+    </footer>
+</html>
